@@ -1,0 +1,45 @@
+{
+    "adresse chantier" : { "lat" : 47.390668, "long" : 0.689319},
+    
+    "decharges" : [{ "adresse" : "adresse decharge 1",
+                     "prix" : 42, 
+                     "coordonnees" : { "lat" : 12.390668, "long" : 0.489319}},
+                    {"adresse" : "adresse decharge 2",
+                     "prix" :32, 
+                     "coordonnees" : { "lat" : 39.390668, "long" : 0.789319}},
+                    {"adresse" : "adresse decharge 3",
+                     "prix" : 22, 
+                     "coordonnees" : { "lat" : 37.390668, "long" : 0.629319}}
+                   ],
+    
+    "depots": [{ "adresse" : "brico depot",
+                 "materiaux" : [{"nom":"metal","prix" : 32}, 
+                                 {"nom" : "bois", "prix" : 25}], 
+                 "coordonnees" : { "lat" : 47.290668, "long" : 0.681319}},
+               { "adresse" : "brico depot 2",
+                 "materiaux" : [{"nom":"metal","prix" : 30}, 
+                                 {"nom" : "bois", "prix" : 22}], 
+                 "coordonnees" : { "lat" : 47.393668, "long" : 0.684319}},
+               { "adresse" : "brico depot3",
+                 "materiaux" : [{"nom":"metal","prix" : 31}, 
+                                 {"nom" : "bois", "prix" : 27}], 
+                 "coordonnees" : { "lat" : 46.390668, "long" : 0.289319}}
+               ],
+    "materiaux necessaires": [{"date" : "1/01", materiaux : [{"nom":"metal","quantite" : 32},{"nom":"bois","quantite" : 32}]},
+                              {"date" : "2/01", materiaux : [{"nom":"metal","quantite" : 32},{"nom":"bois","quantite" : 32}]},
+                              {"date" : "3/01", materiaux : [{"nom":"metal","quantite" : 32},{"nom":"bois","quantite" : 32}]},
+                              {"date" : "4/01", materiaux : [{"nom":"metal","quantite" : 32},{"nom":"bois","quantite" : 32}]},
+                              {"date" : "5/01", materiaux : [{"nom":"metal","quantite" : 32},{"nom":"bois","quantite" : 32}]},
+                              {"date" : "7/01", materiaux : [{"nom":"metal","quantite" : 32},{"nom":"bois","quantite" : 32}]},
+                              {"date" : "8/01", materiaux : [{"nom":"metal","quantite" : 32},{"nom":"bois","quantite" : 32}]}], 
+    
+    "APIkey" : "None",
+    "pourcentage carbone" : 0.7,
+    "pourcentage prix": 0.3,
+    "cout km": 12.7,
+    "emission carbone" : 12.0,
+    "contenance" : 12
+    "nombre heure de travail par jour" : 8,
+    "nombre de chauffeur" : 2,
+}
+
